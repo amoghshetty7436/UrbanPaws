@@ -1,0 +1,110 @@
+.contact-us {
+    padding: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .contact-hero {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .contact-title {
+    color: #333;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .contact-subtitle {
+    font-size: 1.2em;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  .contact-content {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+  
+  .contact-info {
+    margin-bottom: 30px;
+  }
+  
+  .contact-info-title {
+    font-size: 1.8em;
+    color: #222;
+    border-bottom: 2px solid #ff6347; /* Tomato color */
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  .contact-info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .contact-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+  }
+  
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact-form-title {
+    font-size: 1.8em;
+    color: #222;
+    border-bottom: 2px solid #ff6347; /* Tomato color */
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1em;
+  }
+  
+  .form-group textarea {
+    height: 150px;
+    resize: vertical;
+  }
+  
+  .submit-button {
+    background: #ff6347; /* Tomato color */
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background: #e5533c; /* Darker tomato color */
+  }
+  

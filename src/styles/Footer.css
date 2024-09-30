@@ -1,0 +1,113 @@
+/* Footer main container */
+.footer__main {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    position: relative; /* Add this to create a positioning context for the overlapping section */
+  }
+  
+  /* Footer container */
+  .footer {
+    margin-top: 7.5em;
+    text-align: center;
+    color: white;
+    position: relative; /* Ensure that footer__dogs can overlap */
+  }
+  
+  /* Dog images section */
+  .footer__dogs {
+    position: absolute; /* This allows it to overlap */
+    top: -60px; /* Adjust this value to control the overlap amount */
+    left: 0;
+    right: 0;
+    z-index: 1; /* Ensures the dogs section is above the main content */
+  }
+  
+  .footer__dogs__img {
+    border-radius: 50%;
+    margin: 0 30px;
+    vertical-align: middle;
+    width: 8em; /* Adjust based on the size of your images */
+    height: 7.5em;
+  }
+  
+  /* Footer content section */
+  .footer__content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between sections */
+  }
+  
+  .footer__section {
+    flex: 1 1 200px; /* Flexible basis for sections */
+    min-width: 200px; /* Minimum width of each section */
+  }
+  
+  .footer__section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .footer__section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer__section ul li {
+    margin-bottom: 8px;
+  }
+  
+  .footer__section ul li a {
+    color: white; /* Dark text color */
+    text-decoration: none;
+  }
+  
+  .footer__section ul li a:hover {
+    text-decoration: underline;
+  }
+
+  .footer__additional {
+    padding-top: 20px;
+  }
+
+.footer__additional p {
+    margin: 0;
+  }
+
+.footer__links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+  }
+
+.footer__links li {
+    display: inline;
+    margin-right: 5em;
+  }
+
+.footer__links li a {
+    color: white;
+    text-decoration: none;
+  }
+
+.footer__links li a:hover {
+    text-decoration: underline;
+  }
+
+/* Social Media Icons */
+.footer__social {
+    padding-top: 1.25em; /* 20px converted to em */
+}
+
+.footer__social__icon {
+    width: 2.5em; /* 30px converted to em */
+    margin: 0 0.625em; /* 10px converted to em */
+    border-radius: 50%; /* Rounded corners for circular icons */
+    border: 2px solid white; /* White border */
+    vertical-align: middle; /* Align with text */
+}
+
+  
+  

@@ -1,0 +1,205 @@
+@import 'react-datepicker/dist/react-datepicker.css';
+
+.featured-locations {
+    padding: 20px;
+}
+
+.date-range-container {
+    flex: 1 1 200px;
+    height: auto; /* Let the container grow with its content */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.grid-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+}
+
+.grid-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.grid-content {
+    padding: 10px;
+    text-align: center;
+}
+
+.icon-container {
+    margin: 10px 0;
+}
+
+.grid-icon {
+    color: #333;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.rating-text {
+    font-size: 1rem;
+    color: #333;
+}
+
+.book-button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.book-button:hover {
+    background-color: #0056b3;
+}
+
+.search-filter-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-box {
+    padding: 8px;
+    font-size: 16px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.filter-dropdown {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 25%;
+}
+
+.category-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+    background-color: whitesmoke; /* Darker grey background for contrast */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.category-buttons button {
+    padding: 10px 15px;
+    background-color: linear-gradient(135deg, #ff7f50, #ff6347); /* Vibrant coral to tomato gradient */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 10px rgba(255, 99, 71, 0.4); /* Shadow with the button color */
+}
+
+.category-buttons button:hover {
+    background-color: linear-gradient(135deg, #ff4500, #ff6347); /* Slightly darker gradient on hover */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+    box-shadow: 0 6px 14px rgba(255, 69, 0, 0.5); /* More pronounced shadow on hover */
+}
+
+.category-buttons button:active {
+    transform: scale(1.02); /* Reduce the scale slightly when clicked */
+    background-color: #ff4500; /* Darker background color when active */
+}
+
+
+.search-filter-container {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px; /* Adds some space between inputs */
+    margin-bottom: 20px; /* Adds some space below the search area */
+    align-items: center; /* Aligns items vertically in the center */
+}
+
+.search-box {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    flex: 1; /* Allows input boxes to shrink or grow based on available space */
+    min-width: 120px; /* Minimum width for each input */
+}
+
+.fetch-button {
+    padding: 8px 16px;
+    background-color: #ff7f50; /* Customize your button color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.fetch-button:hover {
+    background-color: #ff6347; /* Darker shade on hover */
+}
+
+.description {
+    height: 4.5em; /* Fixed height for the description */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 10px;
+  }
+
+  /* Ensure the date picker component blends with your layout */
+.date-range-container {
+    flex: 1;
+    height: auto; /* Allow the container to adjust based on content */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.date-picker {
+    width: 100%;
+    height: 40px; /* Matches other input heights */
+    padding: 0 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Add additional styling if necessary for consistency */
+/* Date picker styles */
+.react-datepicker {
+    font-size: 16px;
+}
+
+.react-datepicker__header {
+    background-color: #007bff; /* Match button color */
+    color: white;
+}
+
+.react-datepicker__day--selected {
+    background-color: #007bff;
+    color: white;
+}
+
+.react-datepicker__day:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    color: white;
+}
